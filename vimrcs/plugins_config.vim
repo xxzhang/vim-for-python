@@ -3,7 +3,7 @@
 "       This requries that you install https://github.com/amix/vimrc !
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+filetype plugin on
 
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
@@ -83,6 +83,21 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark 
 map <leader>nf :NERDTreeFind<cr>
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Taglist
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <silent> <leader>tl : TlistToggle<CR>
+let Tlist_Exit_OnlyWindow=1
+let Tlist_Show_One_File=1
+let Tlist_GainFocus_On_ToggleOpen=1
+"let Tlist_Sort_Type="name"
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => pydiction
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"let g:pydiction_location = '/home/linaro/.vim_runtime/sources_forked/after/complete-dict'
+"let g:pydiction_menu_height = 10
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
