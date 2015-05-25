@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Ultimate vimrc
 
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
@@ -326,3 +327,7 @@ Vimscript mappings:
 * [Folding in Vim](http://amix.dk/blog/post/19132#Folding-in-Vim)
 * [
 Zen room for Vim: Focusing only on the essential](http://amix.dk/blog/post/19744#zenroom-for-Vim-Focsuing-only-on-the-essential)
+=======
+# vim-for-python
+Just a few plugins for writing python code on vim
+>>>>>>> 6a9010ae704c720590b57d5de0db0ffb907acefb
