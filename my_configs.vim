@@ -2,6 +2,7 @@ set nu
 set cursorline
 set fileformats=unix,dos
 set foldmethod=indent
+set foldlevel=99
 
 """"""""""""""""""""""""""""""
 " => Set line length reminder
