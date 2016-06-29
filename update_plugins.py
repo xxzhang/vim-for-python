@@ -83,3 +83,4 @@ if __name__ == '__main__':
                                      temp_directory, SOURCE_DIR)
     finally:
         shutil.rmtree(temp_directory)
+
